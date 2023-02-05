@@ -5,7 +5,8 @@
 # 使用模版：ACL4SSR.ini
 # 节点数量：{1}
 ####################################
-mixed-port: 9080
+port: 7890
+socks-port: 7891
 allow-lan: true
 log-level: info
 external-controller: 0.0.0.0:9090
