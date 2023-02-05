@@ -1,0 +1,18 @@
+####################################
+# 创建者：v2rayse.com
+# 客户端：Clash
+# 创建时间：2023-01-03 11:17:16
+# 使用模版：ACL4SSR.ini
+# 节点数量：1
+####################################
+mixed-port: 9080
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+
+proxies:
+  - {"name":"ali","type":"trojan","server":"www.shashura1.top","port":3084,"udp":true,"password":"Dongqsj4","skip-cert-verify":true,"network":"tcp"}
+proxy-groups:
+  
+rules:
+ 
